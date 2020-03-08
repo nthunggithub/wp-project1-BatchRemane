@@ -1,0 +1,24 @@
+﻿<Window x:Class="_1712482_1712509_1712528.Replace"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1712482_1712509_1712528"
+        mc:Ignorable="d"
+        Title="Replace" Height="300" Width="300">
+    <Grid>
+        <TextBlock Text="Replace" FontWeight="Bold" Margin="22,6,-2.4,135.4"></TextBlock>
+        <TextBlock Text="Apply to" Margin="158,35,1.6,106.4"/>
+        <ComboBox Name ="AreaComboBox" Margin="158,54,1.6,172.4">
+            <ComboBoxItem Content="Name" IsSelected="True"></ComboBoxItem>
+            <ComboBoxItem Content="Extension"></ComboBoxItem>
+        </ComboBox>
+        <TextBlock Text="From" Margin="20,35,137.6,106.4"></TextBlock>
+        <TextBox Name="fromTextBox" Text="" Margin="20,54,137.6,172.4"/>
+        <TextBlock Text="To" Margin="19,103,138.6,38.4"></TextBlock>
+        <TextBox Name="toTextBox" Text="" Margin="21,123,136.6,106.4"/>
+        <Button Width="80" HorizontalAlignment="Right" Margin="0,126,29,119"
+                Content="Add to List" Click="Button_Click"/>
+
+    </Grid>
+</Window>

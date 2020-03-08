@@ -1,0 +1,22 @@
+﻿<Window x:Class="_1712482_1712509_1712528.FullNameNormalize"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1712482_1712509_1712528"
+        mc:Ignorable="d"
+        Title="FullNameNormalize" Height="300" Width="300" Background="AliceBlue">
+    <Grid>
+        <TextBlock Text="Name Normalize" FontWeight="Bold" Margin="20,6,-0.4,135.4"></TextBlock>
+        <ListView Name="MainListView" Margin="21,46,73.6,56.4" SelectedIndex="0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Full Name Normalize"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Height="20" Width="80" HorizontalAlignment="Right" Margin="0,223,139.6,27.4" Content="Add to List"></Button>
+    </Grid>
+</Window>
